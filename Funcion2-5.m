@@ -1,14 +1,16 @@
 % octave.scriptFuncio1.1
 % Escuela: Tecnologico de Estudios Superiores de Jilotepec
-% Especialidad: Ingeniería en Sistemas Computacionales
+% Especialidad: IngenierÃ­a en Sistemas Computacionales
 % Titulo:Funciones Algebraicas:polinomiales y racionales
-% Descripción:Realizar las funciones y Escribir el tipo de funcion algebraica
-% Autor:Julieta Sánchez Mendoza 
+% DescripciÃ³n:Realizar las funciones y Escribir el tipo de funcion algebraica
+% Autor:Julieta SÃ¡nchez Mendoza 
 % Fecha:17-11-2021
-% Versión: 1
+% VersiÃ³n: 1
 % Funcion 2.5
 %Limpiar varibles 
 clear 
+%Iniciar paquete symbolic
+pkg load symbolic
 syms x
 %Funciona  plotar 
 fx=(2*x)+(1);

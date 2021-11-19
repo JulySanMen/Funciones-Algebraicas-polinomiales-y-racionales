@@ -21,3 +21,4 @@ grid on;
 plot([-20 20],[0 0],'m-',"linewidth",2,"markersize",8);
 plot([0 0],[-30 30],'m-',"linewidth",2,"markersize",8);
 title(['^3 v x^2  Funcion 2.2 No es Polinomica']);
+disp(['La funcion tiende a 0 cuando x=0']);

@@ -21,4 +21,5 @@ grid on;
 plot([-20 20],[0 0],'m-',"linewidth",2,"markersize",8);
 plot([0 0],[-30 30],'m-',"linewidth",2,"markersize",8);
 title([' fx=x+2/x-1 Funcion 2.2 Racional']);
-disp('La fincion es Racional: Pues la funcion tiene discontinuidades en sus puntos');
+disp(['La funcion tiende a 0 cuando x=-2']);
+disp('La funcion es Racional: Pues la funcion tiene discontinuidades en sus puntos');

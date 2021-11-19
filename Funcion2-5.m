@@ -21,4 +21,5 @@ grid on;
 plot([-20 20],[0 0],'m-',"linewidth",2,"markersize",8);
 plot([0 0],[-30 30],'m-',"linewidth",2,"markersize",8);
 title(['fx=2x+1  Funcion 2.2 Polinomica ']);
-disp('La fincion es Polinomica: Pues la funcion se grafica de manera continua');
+disp(['La funcion tiende a 0 cuando x=-0.5 y x=0.5']);
+disp('La funcion es Polinomica: Pues la funcion se grafica de manera continua');

@@ -1,11 +1,11 @@
 % octave.scriptFuncio
 % Escuela: Tecnologico de Estudios Superiores de Jilotepec
-% Especialidad: Ingeniería en Sistemas Computacionales
+% Especialidad: IngenierÃ­a en Sistemas Computacionales
 % Titulo:Funciones Algebraicas:polinomiales y racionales
-% Descripción:Realizar las funciones y Escribir el tipo de funcion algebraica  
-% Autor:Julieta Sánchez Mendoza 
+% DescripciÃ³n:Realizar las funciones y Escribir el tipo de funcion algebraica  
+% Autor:Julieta SÃ¡nchez Mendoza 
 % Fecha:17-11-2021
-% Versión: 1
+% VersiÃ³n: 1
 % Funcion 1.1
 %Limpiar varibles 
 clear 
@@ -21,4 +21,5 @@ grid on;
 plot([-20 20],[0 0],'m-',"linewidth",2,"markersize",8);
 plot([0 0],[-30 30],'m-',"linewidth",2,"markersize",8);
 title(['fx=(x+2)(x-2) Funcion 2-1 Polinomica']);
-disp('La fincion es Polinomica: Pues la funcion se grafica de manera continua');
+disp(['La funcion tiende a 0 cuando x=-2 y x=2']);
+disp('La funcion es Polinomica: Pues la funcion se grafica de manera continua');

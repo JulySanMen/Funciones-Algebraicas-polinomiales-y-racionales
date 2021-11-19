@@ -21,4 +21,5 @@ grid on;
 plot([-20 20],[0 0],'m-',"linewidth",2,"markersize",8);
 plot([0 0],[-500 600],'m-',"linewidth",2,"markersize",8);
 title(['fx=x^3-6x^2+11x-6 Funcion 2.2 Polinomica ']);
-disp('La fincion es Polinomica: Pues la funcion se grafica de manera continua aunque pasa por el cero');
+disp(['La funcion tiende a 0 cuando x=0 y x=4']);
+disp('La funcion es Polinomica: Pues la funcion se grafica de manera continua aunque pasa por el cero');
